@@ -16,7 +16,7 @@ while True:
         break
 
     if tecla == ord('s'):
-        cv2.imwrite("frame_salvo.jpg", frame)
+        cv2.imwrite("recorte/frame_salvo.jpg", frame)
         print("Frame salvo!")
 
 camera.release()
